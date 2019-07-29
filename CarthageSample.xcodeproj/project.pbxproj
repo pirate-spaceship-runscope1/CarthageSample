@@ -328,6 +328,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LD_VERIFY_BITCODE = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = net.openid.appauth.AppAuthTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Microsoft Dogfood Provisioning Profile";
@@ -352,6 +353,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LD_VERIFY_BITCODE = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = net.openid.appauth.AppAuthTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Microsoft Dogfood Provisioning Profile";
